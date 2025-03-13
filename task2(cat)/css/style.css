@@ -1,0 +1,113 @@
+/* * {
+  border: 1px solid blue;
+} */
+
+
+.nav-link{
+  color:black;
+}
+
+.nav-link:hover{
+  color:#006241 !important ;
+}
+
+h1,h2{
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.first-section,.juice,.netflix{
+ background-color: #006241;
+}
+.coffee ,.cake,.hunger{
+  background-color: #d50032;
+}
+.holiday{
+  background-color:#d4e9e2;
+}
+.first-section-content{
+  width: 100%;
+}
+
+/* footer .icons {
+  cursor: pointer;
+} */
+
+
+.fixed-btn {
+  white-space: nowrap;
+  min-width: 100px; 
+  text-align: center;
+}
+.store-text {
+  white-space: nowrap;
+}
+.cake-img{
+ overflow: hidden;
+ position: relative;
+ /* top: 0; */
+ left: 0;
+ right: 0;
+}
+.juice-img{
+  width: 100%!important;
+}
+
+
+
+
+
+
+@media screen and (min-width:480px){
+  .first-section-content{
+    width:75%;
+    margin: auto;
+  }
+   h1,h2{
+      font-size: 30px;
+  }
+  .first-section-content p{
+    font-size: 19px;
+  }
+  .coffee-img ,.juice-img{
+    width: 80%;
+  }
+  .coffee-content h2{
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  p{
+    font-size: 19px;
+    line-height: 1.7;
+  }
+  .cake-img{
+    width: 95%;
+  }
+  .juice-content h2{
+    font-size: 30px;
+    margin-top: 25px;
+    width: 50%;
+    margin: auto;
+  }
+  .hunger-content h4{
+    font-size: 19px;
+    margin-top: 20px;
+  }
+
+}
+
+
+@media screen and (min-width:993px){
+  .coffee-img ,.juice-img{
+    width: 50%!important;
+  }
+  .cake-img{
+    width: 50%;
+  }
+}
+
+
